@@ -109,14 +109,31 @@ export default function DutchessInvestmentReport() {
                                 </table>
                             </div>
                         </div>
-                        <div className="bg-green-50 rounded-xl p-5 border border-green-200">
-                            <h3 className="font-bold text-green-800 mb-2">📍 Recommendation</h3>
-                            <p className="text-green-700 text-sm mb-3">
-                                <strong>Pursue Staatsburg as primary acquisition.</strong> Better value/sqft, quadplex potential, recent roof.
-                            </p>
-                            <div className="bg-white rounded-lg p-3">
-                                <div className="text-xl font-bold text-green-600">Target: $185,000-$195,000</div>
-                                <div className="text-xs text-gray-600">FSBO, multiple price cuts, 52+ days on market</div>
+                        <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
+                            <h3 className="font-bold text-gray-800 mb-3">⚖️ Strategic Options</h3>
+
+                            <div className="space-y-3">
+                                <div className="bg-white rounded-lg p-3 shadow-sm border-l-4 border-blue-500">
+                                    <h4 className="font-bold text-gray-900 text-sm">Option A: Single Property Focus</h4>
+                                    <ul className="text-xs text-gray-600 mt-1 space-y-1">
+                                        <li>• <strong>Staatsburg:</strong> Higher rent potential, quadplex upside, scalable.</li>
+                                        <li>• <strong>Hyde Park:</strong> Lower entry cost, high visibility, standard rental.</li>
+                                    </ul>
+                                </div>
+
+                                <div className="bg-white rounded-lg p-3 shadow-sm border-l-4 border-purple-500">
+                                    <h4 className="font-bold text-gray-900 text-sm">Option B: Portfolio Approach</h4>
+                                    <p className="text-xs text-gray-600 mt-1">
+                                        Acquire both. Renovate Hyde Park first to generate cash flow, then fund Staatsburg renovation. Target combined value $1.2M+.
+                                    </p>
+                                </div>
+
+                                <div className="bg-white rounded-lg p-3 shadow-sm border-l-4 border-orange-500">
+                                    <h4 className="font-bold text-gray-900 text-sm">Option C: Wholesale / Flip</h4>
+                                    <p className="text-xs text-gray-600 mt-1">
+                                        Acquire one or both for light cosmetic renovation and resale. Lower long-term return but faster capital recycling (15-20% margin).
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
